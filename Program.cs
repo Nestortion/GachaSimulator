@@ -17,7 +17,6 @@ namespace GachaSimulator
         static int amountOfPulls;
         static int amountSelected;
         static bool guaranteedEvent = false;
-        static List<Character> tenPullResult = new List<Character>();
         static int pityCounterFiveStar = 1;
         static int pityCounterFourStar = 1;
         static double softPityAddition = 0.066662;
