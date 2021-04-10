@@ -221,41 +221,24 @@ namespace GachaSimulator
 
     class FiveStar : Character
     {
-        String rarity = "Five Star";
-        double dropChance = 0.006;
         public FiveStar(string name)
         {
             setName(name);
         }
-        public double getDropChance()
-        {
-            return this.dropChance;
-        }
+        
     }
     class FourStar : Character
     {
-        String rarity = "Four Star";
-        double dropChance = 0.051;
         public FourStar(string name)
         {
             setName(name);
         }
-        public double getDropChance()
-        {
-            return this.dropChance;
-        }
     }
     class ThreeStar : Character
     {
-        String rarity = "Five Star";
-        double dropChance = 0.943;
         public ThreeStar()
         {
             setName("3Star");
-        }
-        public double getDropChance()
-        {
-            return this.dropChance;
         }
     }
 
